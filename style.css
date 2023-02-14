@@ -1,0 +1,52 @@
+body{
+    width: 100vh;
+    height: 100vh;
+    background-image:  url("50-Beautiful-and-Minimalist-Presentation-Backgrounds-028.jpg");
+    position: relative;
+}
+#form{
+    position: absolute;
+    left: 320px;
+    top: 60px;
+    width: 200px;
+    height: 110px;
+    background:linear-gradient(#395B64,#E7F6F2) ;
+    border-color: #2C3333;
+    padding: 10px;
+    border-radius:2px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#add{
+   margin-top: 2px;
+   padding: 2px;
+   border: solid rgb(36, 33, 33);
+   border-radius: 4px;
+   cursor: pointer;
+}
+#list{
+    position: absolute;
+    width: 220px;
+    height: 130px;
+    left: 320px;
+    top: 200px;
+    margin-top: 40px;
+    background:linear-gradient(#E7F6F2,#395B64) ;
+    border-radius:2px 10px;
+    padding-left: 10px;
+    font-family: 'IBM Plex Serif', serif;
+}
+input{
+    margin-bottom: 7px;
+}
+#remove{
+    position: absolute;
+    top: 6px;
+    left: 200px;
+    border: solid rgb(36, 33, 33);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add:hover,#remove:hover,input:hover{
+    border: solid#395B6470;
+}
